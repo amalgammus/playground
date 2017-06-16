@@ -5,6 +5,13 @@
     <title>Title</title>
 </head>
 <body>
-
+{% for client in clients %}
+    <div style="padding-bottom: 10px">
+        <p>Created date: {{ client.created_date }}</p>
+        <h1>{{ client.client_id }}</h1>
+        <p>Client ip: {{ client.client_ip }}</p>
+        <p>Client tmdns: {{ client.client_tmdns }}</p>
+    </div>
+{% endfor %}
 </body>
 </html>
