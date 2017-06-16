@@ -25,7 +25,7 @@ SECRET_KEY = '#ggxk0(e66x_@*%0!v@-h&-btcs9%d)hc($vhj$+j9ltz&t(3+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['amalgammus.pythonanywhere.com', ]
+ALLOWED_HOSTS = ['amalgammus.pythonanywhere.com', '127.0.0.1',]
 
 
 # Application definition
